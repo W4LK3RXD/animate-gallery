@@ -147,23 +147,22 @@ p#links a {
 }
 
 /* Image and Text Animations  */
-img.cw_image07,
-img.cw_image01 {
-   animation: spin 4s linear infinite;
-   transform-origin: center center;
-}
-
-img.cw_image07:hover,
-img.cw_image01:hover {
-   animation-play-state: paused;
-}
-
-@keyframes spin {
-   from {
+@keyframes spinImages {
+   0% {
       transform: rotate(0deg);
    }
-   to {
+   100% {
       transform: rotate(360deg);
    }
 }
 
+#cw_image07,
+#cw_image01 {
+   animation: spinImages 3s linear infinite;
+   transform-origin: center center;
+}
+
+#cw_image07:hover,
+#cw_image01:hover {
+   animation-play-state: paused;
+}
