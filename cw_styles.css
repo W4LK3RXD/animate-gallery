@@ -148,10 +148,10 @@ p#links a {
 
 /* Image and Text Animations  */
 @keyframes spinImages {
-   0% {
+   from {
       transform: rotate(0deg);
    }
-   100% {
+   to {
       transform: rotate(360deg);
    }
 }
