@@ -147,14 +147,14 @@ p#links a {
 }
 
 /* Image and Text Animations  */
-img#cw_image07,
-img#cw_image01 {
+img.cw_image07,
+img.cw_image01 {
    animation: spin 4s linear infinite;
    transform-origin: center center;
 }
 
-img#cw_image07:hover,
-img#cw_image01:hover {
+img.cw_image07:hover,
+img.cw_image01:hover {
    animation-play-state: paused;
 }
 
